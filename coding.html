@@ -1,0 +1,32 @@
+
+<html >
+
+<head>
+    <title>HTML, CSS, JS Code Editor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h2> HTML, CSS, JavaScript Editor </h2>
+    <pre><marquee behavior="scroll" direction="left"><i>Hey there! Type your code and see the magic! </i></marquee></pre>
+    <fieldset>
+        <div class="cls5">
+            <label for="htmlCode"> HTML</label>
+            <textarea id="htmlCode" placeholder="Write your HTML code here..." onkeyup="runCode()"></textarea>
+
+            <label for="cssCode"> CSS</label>
+            <textarea id="cssCode" placeholder="Write your CSS code here..." onkeyup="runCode()"></textarea>
+
+            <label for="jsCode"> JavaScript</label>
+            <textarea id="jsCode" placeholder="Write your JavaScript code here..." onkeyup="runCode()"></textarea>
+        </div>
+
+        <h3> Output:</h3>
+        <iframe id="output"></iframe>
+    </fieldset>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
